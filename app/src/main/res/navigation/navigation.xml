@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_pokedex">
+
+    <fragment
+        android:id="@+id/nav_pokedex"
+        android:name="my.matt.myApp.PokedexFragment"
+        android:label="@string/title_pokedex"
+        tools:layout="@layout/fragment_pokedex" />
+
+<fragment
+    android:id="@+id/nav_calendar"
+    android:name="my.matt.myApp.CalendarFragment"
+    android:label="Calendrier"
+    tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_abilities"
+        android:name="my.matt.myApp.AbilitiesFragment"
+        android:label="@string/Graphiques"
+        tools:layout="@layout/fragment_abilities" />
+
+    <fragment
+        android:id="@+id/nav_items"
+        android:name="my.matt.myApp.ItemsFragment"
+        android:label="Taux de change"
+        tools:layout="@layout/fragment_items" />
+
+
+
+
+
+
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="my.matt.myApp.SettingsFragment"
+        android:label="Options"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_comparate"
+        android:name="my.matt.myApp.ComparateFragment"
+        android:label="Comparaison"
+        tools:layout="@layout/fragment_comparate" />
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="my.matt.myApp.MyProfil"
+        android:label="Mon profil"
+        tools:layout="@layout/fragment_my_profil" />
+
+</navigation>

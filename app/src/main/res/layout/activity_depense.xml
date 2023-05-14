@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#476287"
+    tools:context=".DepenseActivity">
+
+
+    <Spinner
+
+        android:id="@+id/spinnerChooseCompteDepense"
+        android:layout_width="147dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textMontantNonvide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le montant ne peut pas être vide"
+        android:textColor="#C82400"
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toTopOf="@+id/categorie3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textDescriptionNonVide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le description ne peut pas être vide"
+        android:textColor="#C82400"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/categorie3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textCategorieNonVide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La catégorie ne peut pas être vide"
+        android:textColor="#C82400"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/categorie3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textDateNonVide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La date ne peut pas être vide"
+        android:textColor="#C82400"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/categorie3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:layout_width="58dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="@string/retour"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintStart_toEndOf="@+id/imageRetourDepense"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageRetourDepense"
+        android:layout_width="46dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/arrowback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textCategorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/textCategorie3"
+        app:layout_constraintTop_toBottomOf="@+id/resultatDateDepense" />
+
+    <TextView
+        android:id="@+id/textCategorie3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:fontFamily="casual"
+        android:text="@string/categories"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDateDepense" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="casual"
+        android:text="@string/newDepenses"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/fieldDepenseDescription"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="casual"
+        android:hint="@string/description"
+
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:boxCornerRadiusBottomEnd="50dp"
+        app:boxCornerRadiusBottomStart="50dp"
+        app:boxCornerRadiusTopEnd="50dp"
+        app:boxCornerRadiusTopStart="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/fieldDepenseMontant"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="@string/montant"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+
+        app:boxCornerRadiusBottomEnd="50dp"
+        app:boxCornerRadiusBottomStart="50dp"
+        app:boxCornerRadiusTopEnd="50dp"
+        app:boxCornerRadiusTopStart="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fieldDepenseDescription"
+        tools:ignore="MissingConstraints" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewDepense"
+        android:layout_width="390dp"
+        android:layout_height="227dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDernierOp" />
+
+    <Button
+        android:id="@+id/buttonValidatedepense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/recyclerViewDepense"
+        android:background="@drawable/corner_button"
+        android:fontFamily="casual"
+        android:text="@string/valider"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categorie4"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonDateDepense"
+        android:layout_width="59dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="44dp"
+        android:background="#476287"
+        android:drawableLeft="@drawable/calandar"
+        android:fontFamily="casual"
+        android:src="@drawable/calandar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fieldDepenseMontant" />
+
+    <TextView
+        android:id="@+id/resultatDateDepense"
+        android:layout_width="180dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="92dp"
+        android:fontFamily="casual"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/buttonDateDepense"
+        app:layout_constraintTop_toBottomOf="@+id/fieldDepenseMontant" />
+
+    <TextView
+        android:id="@+id/textDernierOp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="casual"
+        android:text="@string/lastOperation"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonValidatedepense"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/categorie1"
+        android:layout_width="73dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/corner_button"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/food"
+        android:fontFamily="casual"
+        android:text="@string/food"
+        android:textSize="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDateDepense" />
+
+    <Button
+        android:id="@+id/categorie3"
+        android:layout_width="73dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/corner_button"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/education"
+        android:fontFamily="casual"
+        android:text="@string/school"
+        android:textSize="8dp"
+        app:layout_constraintStart_toEndOf="@+id/categorie1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDateDepense" />
+
+    <Button
+        android:id="@+id/categorie4"
+        android:layout_width="73dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/corner_button"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/charges"
+        android:fontFamily="casual"
+        android:text="@string/charges"
+        android:textSize="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categorie1" />
+
+    <Button
+        android:id="@+id/categorie5"
+        android:layout_width="73dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/corner_button"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/bill"
+        android:fontFamily="casual"
+        android:text="@string/factures"
+        android:textSize="8dp"
+        app:layout_constraintStart_toEndOf="@+id/categorie4"
+        app:layout_constraintTop_toBottomOf="@+id/categorie1" />
+
+    <Button
+        android:id="@+id/categorie6"
+        android:layout_width="73dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/corner_button"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/other"
+        android:fontFamily="casual"
+        android:text="@string/autres"
+        android:textSize="8dp"
+        app:layout_constraintStart_toEndOf="@+id/categorie4"
+        app:layout_constraintTop_toBottomOf="@+id/categorie1" />
+
+    <Button
+        android:id="@+id/categorie2"
+        android:layout_width="73dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/corner_button"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/transport"
+        android:fontFamily="casual"
+        android:text="@string/transport"
+        android:textSize="8dp"
+        app:layout_constraintStart_toEndOf="@+id/categorie3"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDateDepense" />
+
+
+    <DatePicker
+        android:id="@+id/datePickerDepense"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:datePickerMode="calendar"
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

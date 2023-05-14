@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Balance</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment from home Pageq</string>
+    <string name="title_pokedex">Balance</string>
+    <string name="title_teams">Teams</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_moves">Moves</string>
+    <string name="menu_abilities">Abilities</string>
+    <string name="menu_items">Items</string>
+    <string name="menu_locations">Locations</string>
+    <string name="menu_natures">Natures</string>
+    <string name="menu_type_chart">Type Chart</string>
+    <string name="menu_iv_calculator">IV Calculator</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help_and_feedback"><![CDATA[Help & Feedback]]></string>
+
+    <string name="newDepenses">New expense</string>
+    <string name="description">Description :</string>
+    <string name="montant">Amount :</string>
+    <string name="valider">Add</string>
+    <string name="lastOperation">Latest transactions</string>
+    <string name="food">Food</string>
+    <string name="school">Education</string>
+    <string name="charges">Charges</string>
+    <string name="factures">Invoice</string>
+    <string name="salaire">Salary</string>
+    <string name="suivant">Next</string>
+    <string name="enterCapital">Enter your caital</string>
+    <string name="exempleCapital">Ex: 3000</string>
+    <string name="titleApp">BALANCE</string>
+    <string name="raveRevoir">Nice to see you again</string>
+    <string name="email">Email :</string>
+    <string name="mdp">Password :</string>
+    <string name="login">Log in</string>
+    <string name="register">Create an account</string>
+    <string name="newRevenu">New  receipt</string>
+    <string name="categories">Category :</string>
+    <string name="options">Settings</string>
+    <string name="changeLanguage">Change the language</string>
+    <string name="chnageDevise">change currency</string>
+    <string name="theme">Theme</string>
+    <string name="deleteAccoutn">Delete accout</string>
+    <string name="capital">Capital</string>
+    <string name="depense">Expense</string>
+    <string name="revenu">Receipt</string>
+
+    <string name="retMotDePasse">Reset your password.</string>
+    <string name="phraseRetMotDePasse">Enter your email associated with your account and we\'ll send you an email with instructions to reset your password.</string>
+    <string name="adresseEmail">email address</string>
+    <string name="entrezVotreMail">Enter your email</string>
+    <string name="sendInstructions">Send instructions</string>
+    <string name="retour">return</string>
+    <string name="verifMail">Check your mail</string>
+    <string name="ouvrirMail">Open an email application</string>
+    <string name="pasMail">Did you not get your email? Check your spam, or try with another email address</string>
+    <string name="connecterGoogle">Or connect with google</string>
+    <string name="rememberMe">Remember me</string>
+    <string name="forgotPassword">Forgotten password?</string>
+    <string name="inccorectCredentials">Inccorect email or password</string>
+    <string name="raviRencontrer">Nice to meet you</string>
+    <string name="redevenezAmin">And become friends again</string>
+    <string name="avecPorteMonnai">with your wallet</string>
+    <string name="Graphiques">Charts</string>
+    <string name="Depenses">Expenses:</string>
+    <string name="revenus">Income:</string>
+    <string name="mois_dernier">Last month:</string>
+    <string name="mois_actuel">Current month:</string>
+    <string name="d_pense_mois_dernier">Expense last month:</string>
+    <string name="d_pense_mois_actuel">Expense current month</string>
+    <string name="poucentage_entre_les_deux">percentage between the two</string>
+    <string name="g_n_rer_mon_fichier_excel">generate my excel file</string>
+    <string name="taux_de_change_les_plus_fr_quents">most_frequent_exchange_rates</string>
+    <string name="eur_euro_usd_dollar"><![CDATA[EUR(euro)>USD(Dollar)]]></string>
+    <string name="gbp_livre_sterling_eur_euro"><![CDATA[GBP(Livre Sterling)>EUR(Euro)]]></string>
+    <string name="jpy_yen_usd_dollar"><![CDATA[JPY(Yen)>USD(Dollar)]]></string>
+    <string name="usd_dollar_euro_eur"><![CDATA[USD(Dollar)>Euro(EUR)]]></string>
+    <string name="eur_euro_jpy_yen"><![CDATA[Eur(Euro)>JPY(Yen)]]></string>
+    <string name="jpy_yen_eur_euro"><![CDATA[JPY(Yen)>EUR(Euro)]]></string>
+    <string name="usd_dollar_jpy_yen"><![CDATA[USD(Dollar)>JPY(Yen)]]></string>
+    <string name="qu_es_ce_qu_un_taux_de_change">What is an exchange rate?</string>
+    <string name="le_taux_de_change_d_une_devise_appellation_d_une_monnaie_qui_est_accept_e_l_tranger_est_le_cours_c_est_dire_le_prix_de_cette_devise_par_rapport_une_autre_devise_source_lafinancepourtous_com">\The exchange rate of a currency (the name of a currency that is accepted abroad) is the rate, i.e. the price, of that currency against another currency\' (Source: lafinancepourtous.com)</string>
+    <string name="_1_eur_1_00318_usd_1_usd_0_99683_eur">1 EUR = 1.00318 USD 1 USD = 0.99683 EUR</string>
+
+    <string name="taux_de_change_de_1_00318">exchange rate of  1.00318</string>
+    <string name="europe_euro_eur">Europe EURO-EUR</string>
+    <string name="_1_eur_0_87855_gbp_1_gbp_1_14688_eur">1 EUR = 0.87855 GBP 1 GBP = 1.14688 EUR</string>
+
+    <string name="taux_de_change_de_0_87855">exchange rate of  0.87855</string>
+    <string name="uk_livre_gbp">UK Livre-GBP</string>
+    <string name="_1_gbp_1_14688_eur_1_eur_0_87193_gbp">1 GBP = 1.14688 EUR 1 EUR = 0.87193 GBP</string>
+
+    <string name="taux_de_change_de_1_14688">exchange rate of  1.14688</string>
+
+    <string name="_1_yen_0_00768_usd_1_usd_130_203_jpy">1 YEN = 0.00768 USD 1 USD = 130.203 JPY</string>
+
+    <string name="taux_de_change_de_0_00768">exchange rate of  0.00768</string>
+
+    <string name="_1_usd_0_97064_eur_1_eur_1_03025_usd">1 USD = 0.97064 EUR 1 EUR = 1.03025 USD</string>
+
+    <string name="taux_de_change_de_0_97064">exchange rate of  0.97064</string>
+
+    <string name="_1_eur_145_4575_jpy_1_jpy_0_00687_eur">1 EUR = 145.4575 JPY 1 JPY = 0.00687 EUR</string>
+
+    <string name="taux_de_change_de_145_4575">exchange rate of  145.4575</string>
+    <string name="japon_yen_jpy">Japon YEN-JPY</string>
+    <string name="_1_jpy_0_0068732_eur_1_eur_145_49264_jpy">1 JPY = 0.0068732 EUR 1 EUR = 145.49264 JPY</string>
+
+    <string name="taux_de_change_de_0_0068732">Texchange rate of  0.0068732</string>
+    <string name="usa_dollar_usd">USA Dollar-USD</string>
+    <string name="_1_usd_139_485_jpy_1_jpy_0_00717_usd">1 USD = 139.485 JPY 1 JPY = 0.00717 USD</string>
+
+    <string name="votre_e_mail">Your email</string>
+    <string name="changer_le_mot_de_passe">Change password</string>
+    <string name="changer_d_adresse_mail">Change email address</string>
+    <string name="entrez_votre_nouveau_email">Enter your new email</string>
+    <string name="entrez_votre_nouveau_mot_de_passe">Enter your new password</string>
+
+    <string name="votre_profil">Your Profile</string>
+    <string name="r_initialsier_vos_informations">Reset your information</string>
+    <string name="lorsque_vous_aurez_r_initialis_votre_adresse_mail_ou_votre_mot_de_passe_vous_serez_automatiquement_redirig_vers_la_page_de_connexion">When you reset your email address or password you will be automatically redirected to the login page</string>
+    <string name="revenu_sur_le_mois">Income on the month:</string>
+    <string name="d_pense_sur_le_mois">Expense on the month:</string>
+    <string name="total_sur_le_mois">Total on the month:</string>
+
+    <string name="entrez_votre_mail_associ_e_votre_compte_et_nous_vous_enverrons_un_mail_avec_les_instructions_pour_r_initialiser_votre_mot_de_passe">Enter the email address associated with your account and we will send you an email with instructions to reset your password.</string>
+
+    <string name="information_personnelles">Personal information</string>
+    <string name="g_n_ral">General</string>
+    <string name="transport">transport</string>
+    <string name="autres">other</string>
+    <string name="dont_facture">Of which Invoice :</string>
+    <string name="dont_charges">Of which Charges :</string>
+    <string name="dont_nourriture">Of which Food:</string>
+    <string name="dont_education">Of which Education:</string>
+    <string name="dont_transport">Of which Transportation:</string>
+    <string name="dont_autres">Of which other:</string>
+    <string name="email_d_ja_utilis_e">Email already used</string>
+
+
+
+
+</resources>

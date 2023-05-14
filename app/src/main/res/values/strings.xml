@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">Balance</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment from home Pageq</string>
+    <string name="title_pokedex">Balance</string>
+    <string name="title_teams">Teams</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_moves">Moves</string>
+    <string name="menu_abilities">Abilities</string>
+    <string name="menu_items">Items</string>
+    <string name="menu_locations">Locations</string>
+    <string name="menu_natures">Natures</string>
+    <string name="menu_type_chart">Type Chart</string>
+    <string name="menu_iv_calculator">IV Calculator</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help_and_feedback"><![CDATA[Help & Feedback]]></string>
+
+    <string name="newDepenses">Nouvelle Depense</string>
+    <string name="description">Description :</string>
+    <string name="montant">Montant :</string>
+    <string name="valider">Valider</string>
+    <string name="lastOperation">Dernières opérations</string>
+    <string name="food">Nourriture</string>
+    <string name="school">Education</string>
+    <string name="charges">Charges</string>
+    <string name="factures">Factures</string>
+    <string name="salaire">Salaire</string>
+    <string name="suivant">Suivant</string>
+    <string name="enterCapital">Entrez votre capital</string>
+    <string name="exempleCapital">Ex: 3000</string>
+    <string name="titleApp">BALANCE</string>
+    <string name="raveRevoir">Ravi de vous revoir</string>
+    <string name="email">Email :</string>
+    <string name="mdp">Mot de passe :</string>
+    <string name="login">Se connecter</string>
+    <string name="register">Créer un compte</string>
+    <string name="newRevenu">Nouveau Revenu</string>
+    <string name="categories">Categorie :</string>
+    <string name="options">Options</string>
+    <string name="changeLanguage">Changer la langue</string>
+    <string name="chnageDevise">Changer la devise</string>
+    <string name="theme">Thème</string>
+    <string name="deleteAccoutn">Supression du compte</string>
+    <string name="capital">Capital</string>
+    <string name="depense">Depense</string>
+    <string name="revenu">Revenu</string>
+    <string name="retMotDePasse">Réinitialiser votre mot de passe</string>
+    <string name="phraseRetMotDePasse">Entrez votre mail associée à votre compte et nous vous enverrons un mail avec les instructions  pour réinitialiser votre mot de passe.</string>
+    <string name="adresseEmail">Adresse mail</string>
+    <string name="entrezVotreMail">Entrez votre mail</string>
+    <string name="sendInstructions">Envoyer les instructions</string>
+    >
+    <string name="verifMail">Vérifiez vos mails</string>
+    <string name="ouvrirMail">Ouvrir une application d\'email</string>
+    <string name="pasMail">Es ce que vous n\'avez pas recu votre mail ? Vérifiez vos spams, ou essayer avec une autre adresse mail</string>
+    <string name="connecterGoogle">Ou connectez vous avec google</string>
+    <string name="rememberMe">Se souvenir de moi</string>
+    <string name="forgotPassword">Mot de passe oublié ?</string>
+    <string name="inccorectCredentials">Email ou mot de passe inccorect</string>
+    <string name="raviRencontrer">Ravi de vous rencontrer</string>
+    <string name="redevenezAmin">Et redevenez ami</string>
+    <string name="avecPorteMonnai">avec votre porte monnaie</string>
+    <string name="Graphiques">Graphiques</string>
+    <string name="Depenses">Dépenses :</string>
+    <string name="revenus">Revenus :</string>
+    <string name="mois_dernier">Mois dernier :</string>
+    <string name="mois_actuel">Mois actuel :</string>
+    <string name="d_pense_mois_dernier">Dépense mois dernier :</string>
+    <string name="d_pense_mois_actuel">Dépense mois actuel</string>
+    <string name="poucentage_entre_les_deux">poucentage entre les deux</string>
+    <string name="g_n_rer_mon_fichier_excel">Générer mon fichier excel</string>
+    <string name="taux_de_change_les_plus_fr_quents">Taux de change les plus fréquents</string>
+    <string name="eur_euro_usd_dollar"><![CDATA[EUR(euro)>USD(Dollar)]]></string>
+    <string name="gbp_livre_sterling_eur_euro"><![CDATA[GBP(Livre Sterling)>EUR(Euro)]]></string>
+    <string name="jpy_yen_usd_dollar"><![CDATA[JPY(Yen)>USD(Dollar)]]></string>
+    <string name="usd_dollar_euro_eur"><![CDATA[USD(Dollar)>Euro(EUR)]]></string>
+    <string name="eur_euro_jpy_yen"><![CDATA[Eur(Euro)>JPY(Yen)]]></string>
+    <string name="jpy_yen_eur_euro"><![CDATA[JPY(Yen)>EUR(Euro)]]></string>
+    <string name="usd_dollar_jpy_yen"><![CDATA[USD(Dollar)>JPY(Yen)]]></string>
+    <string name="qu_es_ce_qu_un_taux_de_change">Qu\'es ce qu\'un taux de change :</string>
+    <string name="le_taux_de_change_d_une_devise_appellation_d_une_monnaie_qui_est_accept_e_l_tranger_est_le_cours_c_est_dire_le_prix_de_cette_devise_par_rapport_une_autre_devise_source_lafinancepourtous_com">\'Le taux de change d’une devise (appellation d’une monnaie qui est acceptée à l’étranger) est le cours, c’est-à-dire le prix, de cette devise par rapport à une autre devise.\' (Source : lafinancepourtous.com)</string>
+
+    <string name="_1_eur_1_00318_usd_1_usd_0_99683_eur">1 EUR = 1.00318 USD 1 USD = 0.99683 EUR</string>
+
+    <string name="taux_de_change_de_1_00318">Taux de change de 1.00318</string>
+    <string name="europe_euro_eur">Europe EURO-EUR</string>
+    <string name="_1_eur_0_87855_gbp_1_gbp_1_14688_eur">1 EUR = 0.87855 GBP 1 GBP = 1.14688 EUR</string>
+
+    <string name="taux_de_change_de_0_87855">Taux de change de 0.87855</string>
+    <string name="uk_livre_gbp">UK Livre-GBP</string>
+    <string name="_1_gbp_1_14688_eur_1_eur_0_87193_gbp">1 GBP = 1.14688 EUR 1 EUR = 0.87193 GBP</string>
+
+    <string name="taux_de_change_de_1_14688">Taux de change de 1.14688</string>
+
+    <string name="_1_yen_0_00768_usd_1_usd_130_203_jpy">1 YEN = 0.00768 USD 1 USD = 130.203 JPY</string>
+
+    <string name="taux_de_change_de_0_00768">Taux de change de 0.00768</string>
+
+    <string name="_1_usd_0_97064_eur_1_eur_1_03025_usd">1 USD = 0.97064 EUR 1 EUR = 1.03025 USD</string>
+
+    <string name="taux_de_change_de_0_97064">Taux de change de 0.97064</string>
+
+    <string name="_1_eur_145_4575_jpy_1_jpy_0_00687_eur">1 EUR = 145.4575 JPY 1 JPY = 0.00687 EUR</string>
+
+    <string name="taux_de_change_de_145_4575">Taux de change de 145.4575</string>
+    <string name="japon_yen_jpy">Japon YEN-JPY</string>
+    <string name="_1_jpy_0_0068732_eur_1_eur_145_49264_jpy">1 JPY = 0.0068732 EUR 1 EUR = 145.49264 JPY</string>
+
+    <string name="taux_de_change_de_0_0068732">Taux de change de 0.0068732</string>
+    <string name="usa_dollar_usd">USA Dollar-USD</string>
+    <string name="_1_usd_139_485_jpy_1_jpy_0_00717_usd">1 USD = 139.485 JPY 1 JPY = 0.00717 USD</string>
+    <string name="votre_e_mail">Votre e-mail</string>
+    <string name="changer_le_mot_de_passe">Changer le mot de passe</string>
+    <string name="changer_d_adresse_mail">Changer d\'adresse mail</string>
+    <string name="entrez_votre_nouveau_email">Entrez votre nouveau email</string>
+    <string name="entrez_votre_nouveau_mot_de_passe">Entrez votre nouveau mot de passe</string>
+    <string name="retour">Retour</string>
+    <string name="votre_profil">Votre Profil</string>
+    <string name="r_initialsier_vos_informations">Réinitialiser vos informations</string>
+    <string name="lorsque_vous_aurez_r_initialis_votre_adresse_mail_ou_votre_mot_de_passe_vous_serez_automatiquement_redirig_vers_la_page_de_connexion">Lorsque vous aurez réinitialisé votre adresse mail ou votre mot de passe vous serez automatiquement redirigé vers la page de connexion</string>
+    <string name="revenu_sur_le_mois">Revenu sur le mois :</string>
+    <string name="d_pense_sur_le_mois">Dépense sur le mois :</string>
+    <string name="total_sur_le_mois">Total sur le mois :</string>
+    <string name="entrez_votre_mail_associ_e_votre_compte_et_nous_vous_enverrons_un_mail_avec_les_instructions_pour_r_initialiser_votre_mot_de_passe">Entrez votre mail associée à votre compte et nous vous enverrons un mail avec les instructions pour réinitialiser votre mot de passe.</string>
+    <string name="information_personnelles">Information personnelles</string>
+    <string name="g_n_ral">Général</string>
+    <string name="transport">transport</string>
+    <string name="autres">autres</string>
+    <string name="dont_facture">Dont Facture :</string>
+    <string name="dont_charges">Dont Charges :</string>
+    <string name="dont_nourriture">Dont Nourriture :</string>
+    <string name="dont_education">Dont Education :</string>
+    <string name="dont_transport">Dont Transport :</string>
+    <string name="dont_autres">Dont autres :</string>
+    <string name="email_d_ja_utilis_e">Email déja utilisée</string>
+
+    <string-array name="firstCurrency">
+        <item>EUR</item>
+        <item>USD</item>
+        <item>JPY</item>
+        <item>BGN</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>GBP</item>
+        <item>HUF</item>
+        <item>PLN</item>
+        <item>RON</item>
+        <item>ETH</item>
+        <item>BNB</item>
+        <item>DOGE</item>
+        <item>XRP</item>
+        <item>BCH</item>
+        <item>LTC</item>
+
+
+    </string-array>
+    <string-array name="secondCurrency">
+        <item>EUR</item>
+        <item>USD</item>
+        <item>JPY</item>
+        <item>BGN</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>GBP</item>
+        <item>HUF</item>
+        <item>PLN</item>
+        <item>RON</item>
+        <item>ETH</item>
+        <item>BNB</item>
+        <item>DOGE</item>
+        <item>XRP</item>
+        <item>BCH</item>
+        <item>LTC</item>
+    </string-array>
+
+
+</resources>

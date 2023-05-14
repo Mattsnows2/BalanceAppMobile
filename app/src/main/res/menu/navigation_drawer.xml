@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/data">
+
+        <item
+            android:id="@+id/nav_abilities"
+            android:icon="@drawable/graph"
+            android:title="Graphiques" />
+        <item
+            android:id="@+id/nav_items"
+            android:icon="@drawable/card"
+            android:title="Taux de change" />
+
+        <item
+            android:id="@+id/nav_comparate"
+            android:icon="@drawable/compare"
+            android:title="Comparer" />
+
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/calandar"
+            android:title="Calendrier" />
+
+
+
+
+    </group>
+
+    <group android:id="@+id/other">
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/menu_settings" />
+
+
+    </group>
+</menu>

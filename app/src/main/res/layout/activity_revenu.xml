@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#476287"
+
+    tools:context=".RevenuActivity">
+
+
+    <Spinner
+        android:id="@+id/spinnerChooseCompteRevenu"
+        android:layout_width="147dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textMontantNonvide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le montant ne peut pas être vide"
+        android:textColor="#C82400"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/categorie3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textDescriptionNonVide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Le description ne peut pas être vide"
+        android:textColor="#C82400"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/categorie3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textCategorieNonVide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La catégorie ne peut pas être vide"
+        android:textColor="#C82400"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/categorie3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textDateNonVide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La date ne peut pas être vide"
+        android:textColor="#C82400"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/categorie3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_width="58dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="@string/retour"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        app:layout_constraintStart_toEndOf="@+id/imageRetourRevenu"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageRetourRevenu"
+        android:layout_width="46dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/arrowback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="casual"
+        android:text="@string/newRevenu"
+        android:textColor="@color/white"
+
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textCategorieRevenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="casual"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/textCategorieRevenu2"
+        app:layout_constraintTop_toBottomOf="@+id/resultatDateRevenu" />
+
+    <TextView
+        android:id="@+id/textCategorieRevenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:text="@string/categories"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDateRevenu" />
+
+    <EditText
+
+        android:id="@+id/fieldRevenuDescription"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:hint="@string/description"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:boxCornerRadiusBottomEnd="50dp"
+        app:boxCornerRadiusBottomStart="50dp"
+        app:boxCornerRadiusTopEnd="50dp"
+        app:boxCornerRadiusTopStart="50dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/fieldRevenuMontant"
+        android:layout_width="337dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="@string/montant"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:boxCornerRadiusBottomEnd="50dp"
+        app:boxCornerRadiusBottomStart="50dp"
+        app:boxCornerRadiusTopEnd="50dp"
+        app:boxCornerRadiusTopStart="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fieldRevenuDescription"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRevenu"
+        android:layout_width="390dp"
+        android:layout_height="227dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDernierOp" />
+
+    <Button
+        android:id="@+id/buttonValidateRevenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="32dp"
+        android:background="@drawable/corner_button"
+        android:fontFamily="casual"
+        android:text="@string/valider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categorie3"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textDernierOp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="4dp"
+        android:fontFamily="casual"
+        android:text="@string/lastOperation"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonValidateRevenu"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/categorie1"
+        android:layout_width="73dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/corner_button"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/salary"
+        android:fontFamily="casual"
+        android:text="@string/salaire"
+        android:textSize="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDateRevenu" />
+
+    <Button
+        android:id="@+id/categorie2"
+        android:layout_width="73dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/corner_button"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/other"
+        android:fontFamily="casual"
+        android:text="@string/autres"
+        android:textSize="8dp"
+        app:layout_constraintStart_toEndOf="@+id/categorie3"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDateRevenu" />
+
+    <Button
+        android:id="@+id/categorie3"
+        android:layout_width="73dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/corner_button"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/rate"
+        android:fontFamily="casual"
+        android:text="Interet"
+        android:textSize="8dp"
+        app:layout_constraintStart_toEndOf="@+id/categorie1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDateRevenu" />
+
+
+    <Button
+        android:id="@+id/buttonDateRevenu"
+        android:layout_width="59dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="52dp"
+        android:background="#476287"
+        android:drawableLeft="@drawable/calandar"
+        android:fontFamily="casual"
+        android:src="@drawable/calandar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fieldRevenuMontant" />
+
+    <TextView
+        android:id="@+id/resultatDateRevenu"
+        android:layout_width="180dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="92dp"
+        android:fontFamily="casual"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/buttonDateRevenu"
+        app:layout_constraintTop_toBottomOf="@+id/fieldRevenuMontant" />
+
+    <DatePicker
+        android:id="@+id/datePickerRevenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:datePickerMode="calendar"
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </DatePicker>
+</androidx.constraintlayout.widget.ConstraintLayout>

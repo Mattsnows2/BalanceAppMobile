@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeRevealLayout"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cordertauxtechange"
+    android:layout_marginBottom="7dp"
+    app:dragEdge="right"
+    app:mode="same_level"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_delete"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/buttonEdit"
+            android:layout_width="70dp"
+
+            android:background="@drawable/borderedit"
+            android:src="@drawable/edit"
+            android:layout_height="100dp"/>
+
+
+        <ImageView
+
+            android:id="@+id/buttonDelete"
+            android:layout_width="70dp"
+
+            android:background="@drawable/borderdelete"
+            android:src="@drawable/bin"
+
+            android:layout_height="100dp"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imageMontantView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"></ImageView>
+
+    <TextView
+        android:id="@+id/textCategorieRevenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textMontantRevenuView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="320dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textMontantRevenuView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@id/textMontantRevenuView2"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textMontantRevenuViewDevise"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+
+
+        android:layout_marginStart="1dp"
+        android:layout_toEndOf="@id/textMontantRevenuView"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="€"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="casual"
+        android:textSize="20dp"
+
+        android:gravity="center"
+        android:layout_toEndOf="@id/imageMontantView"
+        android:text=""
+        android:textColor="@color/white"
+       />
+
+
+    <TextView
+        android:id="@+id/textDescriptionRevenuView"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+      android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>
